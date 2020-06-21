@@ -1,13 +1,12 @@
-//place holder for global variables
+
 //this creates a connetion to the DOM from JS for this particular element
 var  dropdownMenu = d3.select("#selDataset");
+//place holder for global variables
 var globalData;
 var sampleValues;
 var otuIds;
 var otuId;
 var otuLabels;
-
-
 
 //This is an initialization function
 // Fetch the JSON data and console log it
@@ -71,8 +70,7 @@ function init(){
     var sampleValues = sampleFiltered.sample_values.slice(0, 10).reverse();
     // get only top 10 otu ids for the plot OTU and reversing it. 
     var otuIds = (sampleFiltered.otu_ids.slice(0, 10)).reverse();    
-    // get the otu id's to the desired form for the plot
-    var otuId = otuIds.map(x => "OTU " + x)
+    
     //get the top 10 labels
     var otuLabels = (sampleFiltered.otu_labels.slice(0,10)).reverse();
     // Create your trace.
