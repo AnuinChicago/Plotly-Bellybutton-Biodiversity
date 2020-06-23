@@ -11,7 +11,7 @@ var otuLabels;
 //This is an initialization function
 // Fetch the JSON data and console log it
 function init(){
-  d3.json("./samples.json").then(function(data) {
+  d3.json("/samples.json").then(function(data) {
     console.log(data);
     globalData =data;
     var names= globalData.names;
