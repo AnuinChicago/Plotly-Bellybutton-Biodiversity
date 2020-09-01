@@ -1,8 +1,8 @@
-# Plot.ly Homework - Belly Button Biodiversity
+# Belly Button Biodiversity
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
-In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
+Built an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
 
 The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
@@ -46,9 +46,6 @@ Additionally, you are welcome to create any layout that you would like for your 
 
 ![hw](Images/hw02.png)
 
-## Advanced Challenge Assignment (Optional)
-
-The following task is advanced and therefore optional.
 
 * Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the weekly washing frequency of the individual.
 
@@ -58,17 +55,6 @@ The following task is advanced and therefore optional.
 
 ![Weekly Washing Frequency Gauge](Images/gauge.png)
 
-## Deployment
-
-Deploy your app to a free static page hosting service, such as GitHub Pages or Heroku. Submit the links to your deployment and your GitHub repo.
-
-Here is a [guide](Heroku_Deployment_Guide.md) to deploying your app Heroku. 
-
-## Hints
-
-* Use `console.log` inside of your JavaScript code to see what your data looks like at each step.
-
-* Refer to the [Plotly.js documentation](https://plot.ly/javascript/) when building the plots.
 
 ### About the Data
 
@@ -76,4 +62,3 @@ Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly 
 
 - - -
 
-© 2019 Trilogy Education Services
